@@ -1,0 +1,66 @@
+@font-face {
+    font-family: inter-bold;
+    src: url("./assets/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: inter-med;
+    src: url("./assets/Inter-Medium.ttf");
+}
+
+.navBar{
+    width: 1294px;
+    height: 136px;
+    flex-shrink: 0;
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+
+.navBtn{
+width: 150px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #3071E7;
+box-shadow: none;
+outline: none;
+margin-left: 38.8px;
+border-color: none;
+margin-top: 80px;
+}
+
+.navBtnAbout{
+width: 218px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #3071E7;
+margin-left: 10px;
+box-shadow: none;
+outline: none;
+margin-top: 80px;
+}
+
+.navBtnLinks{
+width: 104.08px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #3071E7;
+margin-left: 10px;
+box-shadow: none;
+outline: none;
+margin-top: 80px;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-family: inter-med;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5px;
+    width: -10px;
+    height: 0px;
+    }
