@@ -1,26 +1,17 @@
-import './index.css'
+import './styles/index.css'
+import { Navbar } from './components/navBar'
+import { About } from './components/About'
 
-const Navbar = () => {
-  return (
-    <div className="navBar">
-    <button className="navBtn">
-    <h2>Portfollio</h2>
-    </button>
-    <button className="navBtnLinks">
-    <h2>Links</h2>
-    </button>
-    <button className="navBtnAbout">
-    <h2>About this site</h2>
-    </button>
-    </div>
-  )
-}
-
-function App() {
+export default function App() {
   return (
   <>
+  <header className='bar'>
   <Navbar/>
+  </header>
+  <main className='main'>
+  <About/>
+  </main>
+  <footer></footer>
   </>
   )
 }
-export default App
